@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  font-family: "Merriweather", serif;
 }
 
 *, *::before, *::after {
@@ -8,4 +10,21 @@ html {
 
 body {
   margin: 0;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+li {
+  font-weight: normal;
+}
+
+nav ol {
+  list-style-type: none;
+}
+
+.head {
+  background-color: ##d05c2e;
+  color: #fff;
 }
