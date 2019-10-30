@@ -34,21 +34,21 @@ h1 {
   padding: .4rem 0;
 }
 
-nav ol {
+img {
+  width: 40px;
+}
+
+nav ul {
   list-style-type: none;
   font-size: 1.125rem;
 }
 
-ol {
+ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0;
   margin: 0;
-}
-
-img {
-  width: 40px;
 }
 
 li {
@@ -58,4 +58,17 @@ li {
   border: 1px solid #a63f38;
   padding: .5em 0;
   align-items: center;
+}
+
+a {
+  background-color: #d05c2e;
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #a63f38;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
 }
