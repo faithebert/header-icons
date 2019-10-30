@@ -12,29 +12,33 @@ body {
   margin: 0;
 }
 
-h1 {
-  font-weight: bold;
-}
-
-.grains {
-  display: flex;
-  justify-content: space-between;
-}
-
-li {
-  font-weight: normal;
-}
-
-nav ol {
-  list-style-type: none;
-}
-
-nav {
-  display: flex;
-}
-
 .head {
   display: flex;
   background-color: #d05c2e;
   color: #fff;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.grains {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+nav ol {
+  list-style-type: none;
+  font-size: 1.125rem;
+}
+
+ol {
+  display: flex;
+}
+
+img {
+  width: 40px;
 }
